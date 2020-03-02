@@ -6,146 +6,283 @@
     <link rel="stylesheet" href="library/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Freelancer</title>
+    <script src="https://kit.fontawesome.com/96b15bae54.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!-- NAVIGATORE -------------------------------------------->
-    <header class="container-fluid">
-      <nav class="row boxed">
-        <div class="col-lg-3">
-          <a href="#">START BOOTSTRAP</a>
-        </div>
-        <div class="destra col-lg-3 col-lg-offset-6">
-          <a href="#">PORTFOLIO</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CONTACT</a>
-        </div>
-      </nav>
+    <header id="navigatore">
+      <div class="container">
+        <nav class="row ">
+          <div class="sinistra col-lg-4">
+            <a href="#">START BOOTSTRAP</a>
+          </div>
+          <div class="destra col-lg-5 col-lg-offset-3">
+            <a href="#">PORTFOLIO</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+          </div>
+        </nav>
+      </div>
     </header>
 
 <!------------------------------------------------------------------------------------------------>
     <main>
       <!-- JUMBOTRON ----------------------------------------->
-      <section class="container-fluid" id="jumbotron">
-        <!-- RIGA IMMAGINE ------>
-        <div class="row boxed">
-          <div class=" col-lg-4 col-lg-offset-4">
-            <img src="img/avataaars.png" alt="avatar" id="avatar">
+      <section class="" id="jumbotron">
+        <div class="container">
+          <!-- RIGA IMMAGINE ------>
+          <div class="row">
+            <div class=" col-lg-4 col-lg-offset-4">
+              <img src="img/avataaars.png" alt="avatar" id="avatar">
+            </div>
+          </div>
+
+          <!-- RIGA TITOLO ----->
+          <div class="row ">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1 class="centrato">
+                START BOOTSTRAP
+              </h1>
+            </div>
+          </div>
+
+          <!-- RIGA DIVISORE ----->
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="centrato divisore">
+                <div class="riga">
+                </div>
+                <div class="stella">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="riga">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGA COSA FACCIO ---->
+          <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3">
+              <p class="centrato">
+                Graphic Artist - Web Designer - Illustrator
+              </p>
+            </div>
           </div>
         </div>
 
-        <!-- RIGA TITOLO ----->
-        <div class="row boxed">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h1 class="centrato">
-              START BOOTSTRAP
-            </h1>
-          </div>
-        </div>
 
-        <!-- RIGA DIVISORE ----->
-        <div class="row boxed">
-          <div class="col-lg-4 col-lg-offset-4">
-            <p class="centrato">
-               ------------
-            </p>
-          </div>
-        </div>
-
-        <!-- RIGA COSA FACCIO ---->
-        <div class="row boxed">
-          <div class="col-lg-4 col-lg-offset-4">
-            <p class="centrato">
-              Graphic Artist - Web Designer - Illustrator
-            </p>
-          </div>
-        </div>
       </section>
 
       <!-- PORTFOLIO --------------------------------------------------------------->
-      <section class="container-fluid" id="portfolio">
-        <!-- RIGA TITOLO --------->
-        <div class="row boxed">
-          <div class="col-lg-6 col-lg-offset-3">
-            <h2 class="centrato ">
-              PORTFOLIO
-            </h2>
-          </div>
-        </div>
-
-        <!-- RIGA DIVISORE ------>
-        <div class="row boxed">
-          <div class="col-lg-4 col-lg-offset-4">
-            <p class="centrato">
-               ------------
-            </p>
-          </div>
-        </div>
-
-        <!-- RIGA 3 IMMAGINI SOPRA -->
-        <div class="row boxed">
-          <!-- IMMGINE UNO -->
-          <div class="centrato col-lg-4">
-            <img src="img/cabin.png" alt="cabina">
+      <section class="" id="portfolio">
+        <div class="container">
+          <!-- RIGA TITOLO --------->
+          <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3">
+              <h2 class="centrato ">
+                PORTFOLIO
+              </h2>
+            </div>
           </div>
 
-          <!-- IMMGINE DUE -->
-          <div class="centrato col-lg-4">
-            <img src="img/cake.png" alt="torta">
+          <!-- RIGA DIVISORE ------>
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="centrato divisore">
+                <div class="riga">
+                </div>
+                <div class="stella">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="riga">
+                </div>
+              </div>
+            </div>
           </div>
 
-          <!-- IMMGINE TRE -->
-          <div class="centrato col-lg-4">
-            <img src="img/circus.png" alt="circo">
-          </div>
+          <!-- RIGA 3 IMMAGINI SOPRA -->
+          <div class="row ">
+            <!-- IMMGINE UNO -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/cabin.png" alt="cabina">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
 
+            <!-- IMMGINE DUE -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/cake.png" alt="cake">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
 
+            <!-- IMMGINE TRE -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/circus.png" alt="circus">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
+          <!-- RIGA 3 IMMAGINI SOTTO -->
+            <!-- IMMGINE QUATTRO -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/game.png" alt="gioco">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
 
-        <!-- RIGA 3 IMMAGINI SOTTO -->
-        <div class="row boxed">
-          <!-- IMMGINE QUATTRO -->
-          <div class="centrato col-lg-4">
-            <img src="img/game.png" alt="gioco">
-          </div>
+            <!-- IMMGINE CINQUE -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/safe.png" alt="cassaforte" class="centrato">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
 
-          <!-- IMMGINE CINQUE -->
-          <div class="centrato col-lg-4">
-            <img src="img/safe.png" alt="cassaforte">
-          </div>
-
-          <!-- IMMGINE SEI -->
-          <div class="centrato col-lg-4">
-            <img src="img/submarine.png" alt="sottomarino">
+            <!-- IMMGINE SEI -->
+            <div class="centrato col-lg-4 col-md-6">
+              <div class="boximg centrato">
+                <img src="img/submarine.png" alt="sottomarino">
+                <div class="plusverde">
+                  <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- ABOUT ----------------------------------------------------------------->
-      <section class="container-fluid" id="about">
-        <!-- TITOLO -->
-        <div class="row boxed">
-          <div class="col-lg-6 col-lg-offset-3">
-            <h2 class="centrato ">
-              ABOUT
-            </h2>
+      <section id="about">
+        <div class="container">
+          <!-- TITOLO -->
+          <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3">
+              <h2 class="centrato ">
+                ABOUT
+              </h2>
+            </div>
           </div>
-        </div>
 
-        <!-- DIVISORE -->
-        <div class="row boxed">
-        </div>
+          <!-- DIVISORE -->
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="centrato divisore">
+                <div class="riga">
+                </div>
+                <div class="stella">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="riga">
+                </div>
+              </div>
+          </div>
 
-        <!-- PARAGRAFO -->
-        <div class="row boxed">
-        </div>
+          <!-- PARAGRAFO -->
+          <div class="row ">
+            <div class="col-lg-4 col-lg-offset-2">
+              <p>
+              Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+              </p>
+            </div>
 
-        <!-- BOTTONE -->
-        <div class="row boxed">
+            <div class="col-lg-4">
+              <p>
+                You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+              </p>
+            </div>
+          </div>
+
+          <!-- BOTTONE -->
+          <div class="row ">
+            <div class="centrato col-lg-4 col-lg-offset-4">
+              <a><i class="fas fa-download mr-2"></i>Free Download</a>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- CONTACT ME ------------------------------------------------------------>
-      <section class="container-fluid" id="contactme">
+      <section id="contactme">
+        <div class="container">
+          <!-- TITOLO -->
+          <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3">
+              <h2 class="centrato ">
+                CONTACT ME
+              </h2>
+            </div>
+          </div>
+
+          <!-- DIVISORE -->
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="centrato divisore">
+                <div class="riga">
+                </div>
+                <div class="stella">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="riga">
+                </div>
+              </div>
+          </div>
+
+          <!-- FORM -->
+          <form class="form-horizontal">
+            <div class="row ">
+              <div class="form-group col-lg-6 col-lg-offset-1">
+                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="form-group col-lg-8 col-lg-offset-2">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email Adress</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email Adress">
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="form-group col-lg-8 col-lg-offset-2">
+                <label for="inputEmail3" class="col-sm-2 control-label">Phone Number</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Phone Number">
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="form-group col-lg-8 col-lg-offset-2">
+                <label for="inputEmail3" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Message">
+                </div>
+              </div>
+            </div>
+
+        </div>
       </section>
 
     </main>
@@ -153,17 +290,46 @@
     <!-- FOOTER -------------------------------------------------------------->
     <footer>
       <!-- info --------------------------->
-      <section class="container-fluid" id="info">
-        <div class="row boxed">
-        </div>
+      <section id="info">
+        <div class="container">
+          <div class="centrato row ">
+            <div class="col-lg-4">
+              <h4>LOCATION</h4>
+            </div>
 
-        <div class="row boxed">
+            <div class="col-lg-4">
+              <h4>AROUND THE WEB</h4>
+            </div>
+
+            <div class="col-lg-4">
+              <h4>ABOUT FREELANCER</h4>
+            </div>
+          </div>
+
+          <div class="centrato row ">
+            <div class="col-lg-4">
+              <p>2215 John Daniel Drive <br> Clark, MO 65243</p>
+            </div>
+
+            <div class="col-lg-4">
+              <p>simboli social</p>
+            </div>
+
+            <div class="col-lg-4">
+              <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- COPYRIGHT --------------------->
-      <section>
-        <div class="row boxed">
+      <section id="copyright">
+        <div class="container">
+          <div class="centrato row ">
+            <div class="col-lg-12">
+              <p>Copyright © Your Website 2019</p>
+            </div>
+          </div>
         </div>
       </section>
     </footer>
