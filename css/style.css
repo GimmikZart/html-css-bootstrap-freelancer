@@ -81,6 +81,15 @@ header {
 #navigatore .destra a:hover{
   color: #1abc9c;
 }
+
+#hamburger {
+  display: none;
+}
+
+
+
+
+
 /*JUMBOTRON  --------------------------------------------------------- */
 
 #jumbotron {
@@ -101,7 +110,7 @@ header {
   font-weight: bold;
 }
 
-#jumbotron p {
+#jumbotron h3 {
   font-size: 24px;
   color: white;
   margin: 20px 0 80px 0;
@@ -230,11 +239,31 @@ header {
   padding-bottom:40px;
   border-bottom: 1px solid #e9ecef;
   background-color: none;
-  -webkit-box-shadow: none;
+  box-shadow: none;
   border-radius: 0px;
   font-size: 20px;
 }
 
+.form-horizontal #message{
+  border-bottom: none;
+}
+
+.form-horizontal .row:nth-child(5) {
+  margin-top: 100px;
+  padding-top: 20px;
+  border-top: 1px solid #e9ecef;
+  margin-left: 155px;
+}
+
+#contactme button {
+  padding: 20px 30px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 20px;
+  font-weight:300;
+  border-radius: 10px;
+  border:1px solid white;
+}
 
 /*FOOTER  --------------------------------------------------------- */
 
@@ -281,25 +310,39 @@ header {
 
 
 
+/* MEDIA QUERY*/
 
-
-
-
- /* debug  */
-
-
-nav {
-  /* height: 200px; */
-  /* border: 1px solids black; */
+@media screen and (max-width: 1170px) {
+      #info h4 {
+        margin-top: 40px;
+      }
 }
 
-section {
-  /* height: 700px; */
-  /* background-color: grey; */
-  /* border: 1px solid black; */
-}
+@media screen and (max-width: 750px) {
+    #about p {
+      font-size: 20px;
+    }
 
-footer {
-  /* height: 200px; */
-  /* border: 1px solid black; */
+    #navigatore .destra {
+      display:none;
+    }
+
+    #hamburger {
+      display: block;
+      font-size: 60px;
+      text-align: right;
+    }
+
+    #navigatore .sinistra a {
+      line-height: 50px;
+      font-size: 30px;
+    }
+
+    #avatar {
+      margin-top: 140px;
+    }
+
+    #jumbotron h1 {
+      font-size: 20px;
+    }
 }
